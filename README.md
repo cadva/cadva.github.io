@@ -1,92 +1,97 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  cadva.github.io
-</h1>
+# CADVA — Caribbean American Domestic Violence Awareness
 
-Personal GitHub Pages site built with Gatsby.
+> *"When Victims have no more strength, CADVA will be their strength. When they have been silenced, CADVA will be their voice. When they have been made to feel worthless, CADVA will transform them into priceless gems."*
 
-## 🚀 Quick start
+---
 
-1.  **Install dependencies.**
+## About CADVA
 
-    ```sh
-    npm install
-    ```
+**Caribbean American Domestic Violence Awareness (CADVA)** is a U.S.-based nonprofit organization founded on February 25, 2012 in Orlando, Florida. CADVA's work centers on ending domestic violence through grassroots community organizing, survivor empowerment, and public education — with a particular focus on Caribbean and Caribbean American communities.
 
-1.  **Start developing.**
+**Our Mission:** To address domestic violence through grassroots community efforts and partnership throughout the Caribbean region — empowering survivors, educating the public, and building a community where every person is safe and valued.
 
-    Navigate into the site's directory and start it up.
+**We work to:**
+- Empower victims and survivors to reclaim their lives
+- Educate communities on recognizing, responding to, and speaking up about abuse
+- Build awareness campaigns and partnerships across the Caribbean diaspora
+- Provide support tailored to each individual's circumstances
 
-    ```sh
-    cd cadva.github.io/
-    gatsby develop
-    ```
+---
 
-1.  **Open the source code and start editing!**
+## This Repository
 
-    Your site is now running at `http://localhost:8000`!
+This repository (`cadva.github.io`) is the source for [CADVA's GitHub Pages site](https://cadva.github.io). It is built with [Gatsby](https://www.gatsbyjs.org/) and React.
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+---
 
-    Open the `cadva.github.io` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+## Open Source @ CADVA
 
-## 🧐 What's inside?
+The [CADVA GitHub organization](https://github.com/cadva) is the home for open source projects that support our mission. We believe technology can amplify the reach of advocacy — from tools that help connect survivors with resources, to applications that support community outreach and awareness campaigns.
 
-A quick look at the top-level files and directories you'll see in this project.
+If you build tools for social good and want your work to live under a mission-driven organization, you're in the right place.
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+---
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+## Getting Started (Development)
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for "source code".
+To run this site locally:
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+**Prerequisites:** [Node.js](https://nodejs.org/) and the [Gatsby CLI](https://www.gatsbyjs.org/docs/gatsby-cli/)
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+```sh
+# 1. Clone the repository
+git clone https://github.com/cadva/cadva.github.io.git
+cd cadva.github.io
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+# 2. Install dependencies
+npm install
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you'd like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+# 3. Start the development server
+gatsby develop
+```
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+The site will be running at `http://localhost:8000`.
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+**Other commands:**
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+| Command | Description |
+|---|---|
+| `gatsby develop` | Start development server with hot reload |
+| `gatsby build` | Build the production site |
+| `gatsby serve` | Serve the production build locally |
+| `npm run format` | Format source files with Prettier |
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won't change this file directly).**
+---
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project's name, author, etc). This manifest is how npm knows which packages to install for your project.
+## Contributing
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+We welcome contributions from developers, designers, and advocates who share our commitment to ending domestic violence.
 
-## 🎓 Learning Gatsby
+**To contribute:**
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes with a clear description
+4. Open a pull request
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+Whether you're fixing a bug, improving accessibility, or proposing a new feature that serves our mission — we want to hear from you.
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+---
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+## Contact & Resources
 
-## 💫 Deploy
+| | |
+|---|---|
+| **Website** | [cadva.org](http://www.cadva.org) |
+| **Email** | [help@cadva.org](mailto:help@cadva.org) |
+| **Phone** | (407) 404-0331 |
+| **Twitter** | [@lcadv](https://twitter.com/lcadv) |
+| **Facebook** | [Caribbean American Domestic Violence Awareness](https://www.facebook.com/CaribbeanAmericanDomesticViolenceAwareness) |
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cadva/cadva.github.io)
+**If you or someone you know is in immediate danger, please call 911.**
+National Domestic Violence Hotline: **1-800-799-7233** (TTY: 1-800-787-3224)
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
